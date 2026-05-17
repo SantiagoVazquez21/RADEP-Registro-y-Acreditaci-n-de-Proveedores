@@ -1,0 +1,279 @@
+2025-09-30T02:08:44+02:00 | requisitos_todos | dur=0.000210s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T02:09:00+02:00 | requisitos_todos | dur=0.000121s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T03:29:12+02:00 | requisitos_todos | dur=0.000142s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T03:29:18+02:00 | requisitos_todos | dur=0.000094s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T03:29:27+02:00 | requisitos_todos | dur=0.000098s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:10:57+02:00 | requisitos_todos | dur=0.000146s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:11:04+02:00 | requisitos_todos | dur=0.000132s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:11:06+02:00 | requisitos_evento | dur=0.000409s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-09-30T04:11:06+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:11:13+02:00 | requisitos_evento | dur=0.000390s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:11:13+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:11:15+02:00 | requisitos_evento | dur=0.000352s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-09-30T04:11:15+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:11:28+02:00 | requisitos_todos | dur=0.000078s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:12+02:00 | requisitos_todos | dur=0.000137s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:16+02:00 | requisitos_evento | dur=0.000390s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-09-30T04:12:16+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:17+02:00 | requisitos_evento | dur=0.000373s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-09-30T04:12:17+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:19+02:00 | requisitos_evento | dur=0.000293s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-09-30T04:12:19+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:20+02:00 | requisitos_evento | dur=0.000349s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:12:20+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:36+02:00 | requisitos_todos | dur=0.000086s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:38+02:00 | requisitos_evento | dur=0.000360s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-09-30T04:12:38+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:40+02:00 | requisitos_evento | dur=0.000356s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:12:40+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:12:43+02:00 | requisitos_evento | dur=0.000403s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-09-30T04:12:43+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:13:02+02:00 | requisitos_todos | dur=0.000097s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:13:04+02:00 | requisitos_evento | dur=0.000378s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 17
+2025-09-30T04:13:04+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:13:14+02:00 | requisitos_todos | dur=0.000183s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:13:38+02:00 | requisitos_evento | dur=0.000610s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-09-30T04:13:38+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:20:48+02:00 | requisitos_evento | dur=0.000612s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-09-30T04:20:48+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:21:04+02:00 | requisitos_evento | dur=0.000573s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:21:04+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:21:14+02:00 | requisitos_todos | dur=0.000094s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:21:16+02:00 | requisitos_evento | dur=0.000546s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:21:16+02:00 | requisitos_todos | dur=0.000008s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:15+02:00 | requisitos_todos | dur=0.000260s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:16+02:00 | requisitos_evento | dur=0.000356s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-09-30T04:28:16+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:20+02:00 | requisitos_evento | dur=0.000416s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-09-30T04:28:20+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:22+02:00 | requisitos_evento | dur=0.000464s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:28:22+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:29+02:00 | requisitos_evento | dur=0.000419s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:28:29+02:00 | requisitos_todos | dur=0.000002s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T04:28:34+02:00 | requisitos_evento | dur=0.000539s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T04:28:34+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:00:25+02:00 | requisitos_todos | dur=0.000168s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:00:28+02:00 | requisitos_evento | dur=0.000325s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:00:28+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:31:29+02:00 | requisitos_evento | dur=0.000437s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:31:29+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:31:30+02:00 | requisitos_evento | dur=0.000423s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:31:30+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:31:31+02:00 | requisitos_evento | dur=0.000429s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:31:31+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:31:33+02:00 | requisitos_evento | dur=0.000284s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:31:33+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:34:50+02:00 | requisitos_evento | dur=0.000414s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:34:50+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:34:50+02:00 | requisitos_evento | dur=0.000314s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:34:50+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:34:52+02:00 | requisitos_evento | dur=0.000749s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:34:52+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:35:11+02:00 | requisitos_evento | dur=0.000290s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:35:11+02:00 | requisitos_todos | dur=0.000002s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:35:23+02:00 | requisitos_evento | dur=0.000375s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:35:23+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:40:00+02:00 | requisitos_evento | dur=0.000405s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:40:00+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:40:05+02:00 | requisitos_evento | dur=0.000349s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:40:05+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:40:07+02:00 | requisitos_evento | dur=0.000228s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:40:07+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:40:43+02:00 | requisitos_evento | dur=0.000354s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:40:43+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:40:47+02:00 | requisitos_evento | dur=0.000366s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:40:47+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:28+02:00 | requisitos_evento | dur=0.000480s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:44:28+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:31+02:00 | requisitos_evento | dur=0.000362s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:44:31+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:33+02:00 | requisitos_evento | dur=0.000212s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:44:33+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:47+02:00 | requisitos_todos | dur=0.000145s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:50+02:00 | requisitos_evento | dur=0.000373s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:44:50+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:44:51+02:00 | requisitos_evento | dur=0.000240s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:44:51+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:47:00+02:00 | requisitos_evento | dur=0.000448s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:47:00+02:00 | requisitos_todos | dur=0.000012s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:47:01+02:00 | requisitos_evento | dur=0.000331s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:47:01+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:34+02:00 | requisitos_evento | dur=0.000616s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:34+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:34+02:00 | requisitos_evento | dur=0.000368s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:34+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:36+02:00 | requisitos_evento | dur=0.000304s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:36+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:42+02:00 | requisitos_evento | dur=0.000322s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:42+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:43+02:00 | requisitos_evento | dur=0.000353s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:43+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:48+02:00 | requisitos_evento | dur=0.000320s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:48+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:48:49+02:00 | requisitos_evento | dur=0.000288s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:48:49+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:52:27+02:00 | requisitos_evento | dur=0.000417s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:52:27+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:52:43+02:00 | requisitos_evento | dur=0.000462s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:52:43+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:52:44+02:00 | requisitos_evento | dur=0.000260s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:52:44+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T05:54:32+02:00 | requisitos_evento | dur=0.000385s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T05:54:32+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:01:10+02:00 | requisitos_todos | dur=0.000140s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:01:32+02:00 | requisitos_todos | dur=0.000084s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:01:36+02:00 | requisitos_todos | dur=0.000113s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:02:45+02:00 | requisitos_todos | dur=0.000130s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:02:48+02:00 | requisitos_evento | dur=0.000383s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:02:48+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:03:17+02:00 | requisitos_todos | dur=0.000132s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:03:32+02:00 | requisitos_todos | dur=0.000349s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:03:59+02:00 | requisitos_todos | dur=0.000091s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:04:01+02:00 | requisitos_evento | dur=0.000370s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:04:01+02:00 | requisitos_todos | dur=0.000010s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:04:07+02:00 | requisitos_evento | dur=0.000359s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:04:07+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:04:13+02:00 | requisitos_evento | dur=0.000489s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:04:13+02:00 | requisitos_todos | dur=0.000007s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:07:39+02:00 | requisitos_evento | dur=0.000433s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:07:39+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:07:43+02:00 | requisitos_evento | dur=0.000369s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:07:43+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:09:34+02:00 | requisitos_evento | dur=0.000451s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:09:34+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:10:46+02:00 | requisitos_todos | dur=0.000099s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:10:49+02:00 | requisitos_evento | dur=0.000406s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-09-30T06:10:49+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:10:56+02:00 | requisitos_evento | dur=0.000449s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:10:56+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:16:11+02:00 | requisitos_evento | dur=0.000558s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:16:11+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:24:34+02:00 | requisitos_evento | dur=0.000405s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:24:34+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:24:35+02:00 | requisitos_evento | dur=0.000369s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:24:35+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:29:46+02:00 | requisitos_evento | dur=0.000510s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:29:46+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:29:47+02:00 | requisitos_evento | dur=0.000351s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:29:47+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:36:49+02:00 | requisitos_evento | dur=0.000516s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:36:49+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:36:50+02:00 | requisitos_evento | dur=0.000387s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:36:50+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:40:38+02:00 | requisitos_evento | dur=0.000489s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:40:38+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T06:49:07+02:00 | requisitos_evento | dur=0.000565s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-09-30T06:49:07+02:00 | requisitos_todos | dur=0.000005s | sql=SELECT id, nombre FROM requisitos
+2025-09-30T07:50:38+02:00 | requisitos_todos | dur=0.000131s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:47:41+02:00 | requisitos_todos | dur=0.000115s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:51:12+02:00 | requisitos_todos | dur=0.000113s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:51:16+02:00 | requisitos_evento | dur=0.000547s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T03:51:16+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:53:52+02:00 | requisitos_evento | dur=0.001140s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T03:53:52+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:54:27+02:00 | requisitos_todos | dur=0.000090s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T03:54:30+02:00 | requisitos_evento | dur=0.000351s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T03:54:30+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:07:38+02:00 | requisitos_todos | dur=0.000151s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:07:41+02:00 | requisitos_evento | dur=0.000364s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T04:07:41+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:07:48+02:00 | requisitos_evento | dur=0.000538s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T04:07:48+02:00 | requisitos_todos | dur=0.000007s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:08:41+02:00 | requisitos_todos | dur=0.000164s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:08:43+02:00 | requisitos_evento | dur=0.000337s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T04:08:43+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:30:38+02:00 | requisitos_todos | dur=0.000205s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:33:25+02:00 | requisitos_todos | dur=0.000145s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:33:29+02:00 | requisitos_todos | dur=0.000092s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:33:34+02:00 | requisitos_todos | dur=0.000081s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:39:39+02:00 | requisitos_todos | dur=0.000130s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:39:57+02:00 | requisitos_todos | dur=0.000079s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:40:39+02:00 | requisitos_todos | dur=0.000110s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:40:45+02:00 | requisitos_evento | dur=0.000685s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T04:40:45+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:50:40+02:00 | requisitos_evento | dur=0.000474s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T04:50:40+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T04:50:43+02:00 | requisitos_evento | dur=0.000745s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T04:50:43+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:00:47+02:00 | requisitos_evento | dur=0.000383s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T05:00:47+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:02:25+02:00 | requisitos_evento | dur=0.000425s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T05:02:25+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:02:55+02:00 | requisitos_todos | dur=0.000160s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:02:56+02:00 | requisitos_evento | dur=0.000377s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 17
+2025-10-01T05:02:56+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:02:58+02:00 | requisitos_evento | dur=0.000352s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T05:02:58+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:02:59+02:00 | requisitos_evento | dur=0.000377s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 20
+2025-10-01T05:02:59+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:07+02:00 | requisitos_evento | dur=0.000321s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T05:03:07+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:07+02:00 | requisitos_evento | dur=0.000368s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 20
+2025-10-01T05:03:07+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:15+02:00 | requisitos_todos | dur=0.000159s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:15+02:00 | requisitos_todos | dur=0.000075s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:17+02:00 | requisitos_evento | dur=0.000368s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 19
+2025-10-01T05:03:17+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:21+02:00 | requisitos_evento | dur=0.000386s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T05:03:21+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:23+02:00 | requisitos_evento | dur=0.000561s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T05:03:23+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:29+02:00 | requisitos_evento | dur=0.000436s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T05:03:29+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:03:38+02:00 | requisitos_evento | dur=0.000645s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T05:03:38+02:00 | requisitos_todos | dur=0.000006s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:06:50+02:00 | requisitos_todos | dur=0.000141s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:19:36+02:00 | requisitos_todos | dur=0.000137s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:21:12+02:00 | requisitos_todos | dur=0.000142s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:21:27+02:00 | requisitos_todos | dur=0.000080s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:23:15+02:00 | requisitos_todos | dur=0.000136s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T05:23:17+02:00 | requisitos_evento | dur=0.000371s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T05:23:17+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T23:38:35+02:00 | requisitos_todos | dur=0.000162s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T23:38:40+02:00 | requisitos_todos | dur=0.000094s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T23:38:41+02:00 | requisitos_evento | dur=0.000569s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-01T23:38:41+02:00 | requisitos_todos | dur=0.000003s | sql=SELECT id, nombre FROM requisitos
+2025-10-02T00:00:36+02:00 | requisitos_evento | dur=0.000455s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 18
+2025-10-02T00:00:36+02:00 | requisitos_todos | dur=0.000004s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T20:50:07-03:00 | requisitos_todos | dur=0.000125s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T20:50:11-03:00 | requisitos_evento | dur=0.002139s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T20:50:11-03:00 | requisitos_todos | dur=0.000113s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T20:50:48-03:00 | requisitos_todos | dur=0.000153s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T20:50:53-03:00 | requisitos_evento | dur=0.003148s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T20:50:53-03:00 | requisitos_todos | dur=0.000097s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T20:51:04-03:00 | requisitos_evento | dur=0.001465s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T20:51:04-03:00 | requisitos_todos | dur=0.000101s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:04:30-03:00 | requisitos_todos | dur=0.000133s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:08:34-03:00 | requisitos_todos | dur=0.000135s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:08:41-03:00 | requisitos_evento | dur=0.003246s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:08:41-03:00 | requisitos_todos | dur=0.000101s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:08:55-03:00 | requisitos_evento | dur=0.002182s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:08:55-03:00 | requisitos_todos | dur=0.000100s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:09:24-03:00 | requisitos_evento | dur=0.001407s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:09:24-03:00 | requisitos_todos | dur=0.000148s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:10:29-03:00 | requisitos_todos | dur=0.000106s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:10:31-03:00 | requisitos_evento | dur=0.001201s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:10:31-03:00 | requisitos_todos | dur=0.000100s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:11:52-03:00 | requisitos_todos | dur=0.000104s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:11:54-03:00 | requisitos_todos | dur=0.000103s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:11:57-03:00 | requisitos_evento | dur=0.003861s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 15
+2025-10-01T21:11:57-03:00 | requisitos_todos | dur=0.000184s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:12:44-03:00 | requisitos_todos | dur=0.000103s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:12:46-03:00 | requisitos_evento | dur=0.002988s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:12:46-03:00 | requisitos_todos | dur=0.000099s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:14:01-03:00 | requisitos_todos | dur=0.000145s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:14:06-03:00 | requisitos_evento | dur=0.001665s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:14:06-03:00 | requisitos_todos | dur=0.000098s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:14:32-03:00 | requisitos_evento | dur=0.002463s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:14:32-03:00 | requisitos_todos | dur=0.000099s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:17:15-03:00 | requisitos_todos | dur=0.000130s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:17:21-03:00 | requisitos_evento | dur=0.002979s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:17:21-03:00 | requisitos_todos | dur=0.000097s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:19:35-03:00 | requisitos_todos | dur=0.000122s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:19:37-03:00 | requisitos_todos | dur=0.000104s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:19:40-03:00 | requisitos_evento | dur=0.001234s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:19:40-03:00 | requisitos_todos | dur=0.000099s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:19:46-03:00 | requisitos_evento | dur=0.003511s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:19:46-03:00 | requisitos_todos | dur=0.000138s | sql=SELECT id, nombre FROM requisitos
+2025-10-01T21:25:19-03:00 | requisitos_evento | dur=0.003604s | sql=SELECT r.id, r.nombre, er.estado       FROM evento_requisito er       JOIN requisitos r ON er.requisito_id = r.id       WHERE er.evento_id = 27
+2025-10-01T21:25:19-03:00 | requisitos_todos | dur=0.000230s | sql=SELECT id, nombre FROM requisitos

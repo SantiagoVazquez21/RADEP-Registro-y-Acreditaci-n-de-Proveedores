@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="70" viewBox="0 0 220 70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del logo -->
+  <rect width="220" height="70" rx="8" fill="#ffffff" stroke="#5092ab" stroke-width="2"/>
+  
+  <!-- Círculo decorativo -->
+  <circle cx="35" cy="35" r="25" fill="#5092ab" opacity="0.1"/>
+  <circle cx="35" cy="35" r="15" fill="#5092ab" opacity="0.2"/>
+  
+  <!-- Icono de gestión/documento -->
+  <rect x="25" y="25" width="20" height="25" rx="2" fill="#5092ab"/>
+  <rect x="28" y="28" width="14" height="2" fill="white"/>
+  <rect x="28" y="32" width="10" height="2" fill="white"/>
+  <rect x="28" y="36" width="12" height="2" fill="white"/>
+  <rect x="28" y="40" width="8" height="2" fill="white"/>
+  
+  <!-- Texto RADEP -->
+  <text x="70" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#5092ab">RADEP</text>
+  
+  <!-- Subtítulo -->
+  <text x="70" y="50" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Sistema de Gestión</text>
+</svg> 

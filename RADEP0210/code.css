@@ -1,0 +1,250 @@
+/* styles.css - Estilos modernos y consistentes para SICOP */
+
+/* Reset y base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+  color: #0080ff;
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedores */
+.container, .login-container {
+  background: rgba(8, 145, 178, 0.15);
+  backdrop-filter: saturate(200%) blur(30px);
+  border-radius: 24px;
+  padding: 48px 40px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(8, 145, 178, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Headers */
+.login-header, header.site-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.login-header h1, header.site-header h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 2.8rem;
+  background: linear-gradient(90deg, #3B82F6, #06B6D4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.login-header p, header.site-header p {
+  margin-top: 8px;
+  color: #0073ff;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: #F1F5F9;
+}
+select,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="file"] {
+  padding: 14px 18px;
+  border-radius: 16px;
+  border: 2px solid rgba(56, 189, 248, 0.7);
+  background: rgba(15, 23, 42, 0.6);
+  color: #E0F2FE;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline-offset: 3px;
+}
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+  border-color: #3B82F6;
+  box-shadow: 0 0 12px #38BDF8;
+  background: rgba(255 255 255 / 0.07);
+}
+
+/* Inputs con iconos */
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+.input-wrapper .material-icons {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(56, 189, 248, 0.7);
+  user-select: none;
+  pointer-events: none;
+  font-size: 20px;
+}
+.input-wrapper input,
+.input-wrapper select {
+  padding-left: 48px;
+}
+
+/* Botones */
+button[type='submit'],
+button {
+  padding: 16px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #14B8A6, #0EA5E9);
+  color: #E0F2FE;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.35s ease, transform 0.18s ease;
+  box-shadow: 0 6px 25px rgba(14,165,233, 0.45);
+}
+button[type='submit']:hover,
+button:hover {
+  background: linear-gradient(90deg, #0EA5E9, #14B8A6);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 35px rgba(14,165,233, 0.7);
+}
+button[type='submit']:active,
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 20px rgba(14,165,233, 0.5);
+}
+
+/* Mensajes */
+.error-msg {
+  background: #ef4444;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 4px 8px rgb(239 68 68 / 0.6);
+}
+.success-msg {
+  background: #22c55e;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 4px 8px rgb(34 197 94 / 0.6);
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255 255 255 / 0.05);
+  box-shadow: 0 8px 12px rgb(16 185 129 / 0.15);
+}
+th,
+td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #064e3b;
+}
+th {
+  background: #065f46;
+}
+.foto-thumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Botones especiales */
+.btn-approve {
+  background: #22c55e;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-approve:hover {
+  background: #15803d;
+}
+.btn-reject {
+  background: #ef4444;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-reject:hover {
+  background: #b91c1c;
+}
+
+/* Header general */
+header.site-header {
+  background: rgba(16, 185, 129, 0.85);
+  padding: 1rem 2rem;
+  color: #f9fafb;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-container,
+  .container {
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  table th,
+  table td {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+  header.site-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
