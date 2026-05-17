@@ -1,0 +1,20 @@
+# Configuración sensible (credenciales)
+dbconn.php
+config_smtp.php
+config_app.php
+config_mail_qr.php
+
+# Dependencias de Composer (se regeneran con: composer install)
+vendor/
+
+# Archivos subidos por usuarios
+uploads/
+
+# Logs y archivos de debug
+tmp_login_debug.log
+tmp_mail_previews/
+debug_*.php
+tmp_debug_session.php
+
+# Editor
+.vscode/
